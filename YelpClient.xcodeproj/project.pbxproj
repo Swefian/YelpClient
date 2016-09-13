@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4375DC5C1D82E42A00DC3E25 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DC5B1D82E42A00DC3E25 /* main.m */; };
+		4375DC5F1D82E42A00DC3E25 /* YCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DC5E1D82E42A00DC3E25 /* YCAppDelegate.m */; };
+		4375DC671D82E42A00DC3E25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4375DC661D82E42A00DC3E25 /* Assets.xcassets */; };
+		4375DC6A1D82E42A00DC3E25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4375DC681D82E42A00DC3E25 /* LaunchScreen.storyboard */; };
+		4375DCBB1D87971C00DC3E25 /* YCBusiness.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DC9F1D87971B00DC3E25 /* YCBusiness.m */; };
+		4375DCBC1D87971C00DC3E25 /* YCReview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DCA11D87971C00DC3E25 /* YCReview.m */; };
+		4375DCBD1D87971C00DC3E25 /* YCYelpAPIConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DCA31D87971C00DC3E25 /* YCYelpAPIConnector.m */; };
+		4375DCBE1D87971C00DC3E25 /* OMGFormURLEncode.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DCA71D87971C00DC3E25 /* OMGFormURLEncode.m */; };
+		4375DCBF1D87971C00DC3E25 /* OMGHTTPURLRQ.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DCA91D87971C00DC3E25 /* OMGHTTPURLRQ.m */; };
+		4375DCC01D87971C00DC3E25 /* OMGUserAgent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DCAB1D87971C00DC3E25 /* OMGUserAgent.m */; };
+		4375DCC11D87971C00DC3E25 /* TDOAuth.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DCAE1D87971C00DC3E25 /* TDOAuth.m */; };
+		4375DCC21D87971C00DC3E25 /* AutoLayoutHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DCB21D87971C00DC3E25 /* AutoLayoutHelper.m */; };
+		4375DCC31D87971C00DC3E25 /* YCBusinessCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DCB41D87971C00DC3E25 /* YCBusinessCell.m */; };
+		4375DCC41D87971C00DC3E25 /* YCBusinessCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4375DCB51D87971C00DC3E25 /* YCBusinessCell.xib */; };
+		4375DCC51D87971C00DC3E25 /* YCBusinessDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DCB71D87971C00DC3E25 /* YCBusinessDetailsController.m */; };
+		4375DCC61D87971C00DC3E25 /* YCBusinessDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4375DCB81D87971C00DC3E25 /* YCBusinessDetailsController.xib */; };
+		4375DCC71D87971C00DC3E25 /* YCSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4375DCBA1D87971C00DC3E25 /* YCSearchController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4375DC571D82E42A00DC3E25 /* YelpClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YelpClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4375DC5B1D82E42A00DC3E25 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Sources/main.m; sourceTree = "<group>"; };
+		4375DC5D1D82E42A00DC3E25 /* YCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YCAppDelegate.h; path = Sources/YCAppDelegate.h; sourceTree = "<group>"; };
+		4375DC5E1D82E42A00DC3E25 /* YCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YCAppDelegate.m; path = Sources/YCAppDelegate.m; sourceTree = "<group>"; };
+		4375DC661D82E42A00DC3E25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4375DC691D82E42A00DC3E25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4375DC6B1D82E42A00DC3E25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4375DC9C1D878EC200DC3E25 /* YCContants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YCContants.h; path = Sources/YCContants.h; sourceTree = "<group>"; };
+		4375DC9E1D87971B00DC3E25 /* YCBusiness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCBusiness.h; sourceTree = "<group>"; };
+		4375DC9F1D87971B00DC3E25 /* YCBusiness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCBusiness.m; sourceTree = "<group>"; };
+		4375DCA01D87971B00DC3E25 /* YCReview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCReview.h; sourceTree = "<group>"; };
+		4375DCA11D87971C00DC3E25 /* YCReview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCReview.m; sourceTree = "<group>"; };
+		4375DCA21D87971C00DC3E25 /* YCYelpAPIConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCYelpAPIConnector.h; sourceTree = "<group>"; };
+		4375DCA31D87971C00DC3E25 /* YCYelpAPIConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCYelpAPIConnector.m; sourceTree = "<group>"; };
+		4375DCA61D87971C00DC3E25 /* OMGFormURLEncode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGFormURLEncode.h; sourceTree = "<group>"; };
+		4375DCA71D87971C00DC3E25 /* OMGFormURLEncode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGFormURLEncode.m; sourceTree = "<group>"; };
+		4375DCA81D87971C00DC3E25 /* OMGHTTPURLRQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGHTTPURLRQ.h; sourceTree = "<group>"; };
+		4375DCA91D87971C00DC3E25 /* OMGHTTPURLRQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGHTTPURLRQ.m; sourceTree = "<group>"; };
+		4375DCAA1D87971C00DC3E25 /* OMGUserAgent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OMGUserAgent.h; sourceTree = "<group>"; };
+		4375DCAB1D87971C00DC3E25 /* OMGUserAgent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OMGUserAgent.m; sourceTree = "<group>"; };
+		4375DCAD1D87971C00DC3E25 /* TDOAuth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TDOAuth.h; sourceTree = "<group>"; };
+		4375DCAE1D87971C00DC3E25 /* TDOAuth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TDOAuth.m; sourceTree = "<group>"; };
+		4375DCB11D87971C00DC3E25 /* AutoLayoutHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutHelper.h; sourceTree = "<group>"; };
+		4375DCB21D87971C00DC3E25 /* AutoLayoutHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutHelper.m; sourceTree = "<group>"; };
+		4375DCB31D87971C00DC3E25 /* YCBusinessCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCBusinessCell.h; sourceTree = "<group>"; };
+		4375DCB41D87971C00DC3E25 /* YCBusinessCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCBusinessCell.m; sourceTree = "<group>"; };
+		4375DCB51D87971C00DC3E25 /* YCBusinessCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCBusinessCell.xib; sourceTree = "<group>"; };
+		4375DCB61D87971C00DC3E25 /* YCBusinessDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCBusinessDetailsController.h; sourceTree = "<group>"; };
+		4375DCB71D87971C00DC3E25 /* YCBusinessDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCBusinessDetailsController.m; sourceTree = "<group>"; };
+		4375DCB81D87971C00DC3E25 /* YCBusinessDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YCBusinessDetailsController.xib; sourceTree = "<group>"; };
+		4375DCB91D87971C00DC3E25 /* YCSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCSearchController.h; sourceTree = "<group>"; };
+		4375DCBA1D87971C00DC3E25 /* YCSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YCSearchController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4375DC541D82E42A00DC3E25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4375DC4E1D82E42A00DC3E25 = {
+			isa = PBXGroup;
+			children = (
+				4375DC591D82E42A00DC3E25 /* YelpClient */,
+				4375DC581D82E42A00DC3E25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4375DC581D82E42A00DC3E25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4375DC571D82E42A00DC3E25 /* YelpClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4375DC591D82E42A00DC3E25 /* YelpClient */ = {
+			isa = PBXGroup;
+			children = (
+				4375DCAF1D87971C00DC3E25 /* UI Layer */,
+				4375DC9D1D87971B00DC3E25 /* Data Layer */,
+				4375DCA41D87971C00DC3E25 /* Third Party */,
+				4375DC5A1D82E42A00DC3E25 /* Supporting Files */,
+			);
+			path = YelpClient;
+			sourceTree = "<group>";
+		};
+		4375DC5A1D82E42A00DC3E25 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4375DC661D82E42A00DC3E25 /* Assets.xcassets */,
+				4375DC681D82E42A00DC3E25 /* LaunchScreen.storyboard */,
+				4375DC6B1D82E42A00DC3E25 /* Info.plist */,
+				4375DC5B1D82E42A00DC3E25 /* main.m */,
+				4375DC9C1D878EC200DC3E25 /* YCContants.h */,
+				4375DC5D1D82E42A00DC3E25 /* YCAppDelegate.h */,
+				4375DC5E1D82E42A00DC3E25 /* YCAppDelegate.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4375DC9D1D87971B00DC3E25 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				4375DC9E1D87971B00DC3E25 /* YCBusiness.h */,
+				4375DC9F1D87971B00DC3E25 /* YCBusiness.m */,
+				4375DCA01D87971B00DC3E25 /* YCReview.h */,
+				4375DCA11D87971C00DC3E25 /* YCReview.m */,
+				4375DCA21D87971C00DC3E25 /* YCYelpAPIConnector.h */,
+				4375DCA31D87971C00DC3E25 /* YCYelpAPIConnector.m */,
+			);
+			name = "Data Layer";
+			path = "Sources/Data Layer";
+			sourceTree = "<group>";
+		};
+		4375DCA41D87971C00DC3E25 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				4375DCA51D87971C00DC3E25 /* OMGHTTPURLRQ */,
+				4375DCAC1D87971C00DC3E25 /* TDOAuth */,
+			);
+			name = "Third Party";
+			path = "Sources/Third Party";
+			sourceTree = "<group>";
+		};
+		4375DCA51D87971C00DC3E25 /* OMGHTTPURLRQ */ = {
+			isa = PBXGroup;
+			children = (
+				4375DCA61D87971C00DC3E25 /* OMGFormURLEncode.h */,
+				4375DCA71D87971C00DC3E25 /* OMGFormURLEncode.m */,
+				4375DCA81D87971C00DC3E25 /* OMGHTTPURLRQ.h */,
+				4375DCA91D87971C00DC3E25 /* OMGHTTPURLRQ.m */,
+				4375DCAA1D87971C00DC3E25 /* OMGUserAgent.h */,
+				4375DCAB1D87971C00DC3E25 /* OMGUserAgent.m */,
+			);
+			path = OMGHTTPURLRQ;
+			sourceTree = "<group>";
+		};
+		4375DCAC1D87971C00DC3E25 /* TDOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				4375DCAD1D87971C00DC3E25 /* TDOAuth.h */,
+				4375DCAE1D87971C00DC3E25 /* TDOAuth.m */,
+			);
+			path = TDOAuth;
+			sourceTree = "<group>";
+		};
+		4375DCAF1D87971C00DC3E25 /* UI Layer */ = {
+			isa = PBXGroup;
+			children = (
+				4375DCB01D87971C00DC3E25 /* Utilities */,
+				4375DCB31D87971C00DC3E25 /* YCBusinessCell.h */,
+				4375DCB41D87971C00DC3E25 /* YCBusinessCell.m */,
+				4375DCB51D87971C00DC3E25 /* YCBusinessCell.xib */,
+				4375DCB61D87971C00DC3E25 /* YCBusinessDetailsController.h */,
+				4375DCB71D87971C00DC3E25 /* YCBusinessDetailsController.m */,
+				4375DCB81D87971C00DC3E25 /* YCBusinessDetailsController.xib */,
+				4375DCB91D87971C00DC3E25 /* YCSearchController.h */,
+				4375DCBA1D87971C00DC3E25 /* YCSearchController.m */,
+			);
+			name = "UI Layer";
+			path = "Sources/UI Layer";
+			sourceTree = "<group>";
+		};
+		4375DCB01D87971C00DC3E25 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				4375DCB11D87971C00DC3E25 /* AutoLayoutHelper.h */,
+				4375DCB21D87971C00DC3E25 /* AutoLayoutHelper.m */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4375DC561D82E42A00DC3E25 /* YelpClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4375DC6E1D82E42A00DC3E25 /* Build configuration list for PBXNativeTarget "YelpClient" */;
+			buildPhases = (
+				4375DC531D82E42A00DC3E25 /* Sources */,
+				4375DC541D82E42A00DC3E25 /* Frameworks */,
+				4375DC551D82E42A00DC3E25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YelpClient;
+			productName = YelpClient;
+			productReference = 4375DC571D82E42A00DC3E25 /* YelpClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4375DC4F1D82E42A00DC3E25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YC;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Brian Kayfitz";
+				TargetAttributes = {
+					4375DC561D82E42A00DC3E25 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 4375DC521D82E42A00DC3E25 /* Build configuration list for PBXProject "YelpClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4375DC4E1D82E42A00DC3E25;
+			productRefGroup = 4375DC581D82E42A00DC3E25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4375DC561D82E42A00DC3E25 /* YelpClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4375DC551D82E42A00DC3E25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4375DC6A1D82E42A00DC3E25 /* LaunchScreen.storyboard in Resources */,
+				4375DCC41D87971C00DC3E25 /* YCBusinessCell.xib in Resources */,
+				4375DCC61D87971C00DC3E25 /* YCBusinessDetailsController.xib in Resources */,
+				4375DC671D82E42A00DC3E25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4375DC531D82E42A00DC3E25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4375DC5F1D82E42A00DC3E25 /* YCAppDelegate.m in Sources */,
+				4375DCBB1D87971C00DC3E25 /* YCBusiness.m in Sources */,
+				4375DCC01D87971C00DC3E25 /* OMGUserAgent.m in Sources */,
+				4375DCC71D87971C00DC3E25 /* YCSearchController.m in Sources */,
+				4375DCBD1D87971C00DC3E25 /* YCYelpAPIConnector.m in Sources */,
+				4375DCC11D87971C00DC3E25 /* TDOAuth.m in Sources */,
+				4375DCC31D87971C00DC3E25 /* YCBusinessCell.m in Sources */,
+				4375DCC51D87971C00DC3E25 /* YCBusinessDetailsController.m in Sources */,
+				4375DCBF1D87971C00DC3E25 /* OMGHTTPURLRQ.m in Sources */,
+				4375DC5C1D82E42A00DC3E25 /* main.m in Sources */,
+				4375DCBC1D87971C00DC3E25 /* YCReview.m in Sources */,
+				4375DCC21D87971C00DC3E25 /* AutoLayoutHelper.m in Sources */,
+				4375DCBE1D87971C00DC3E25 /* OMGFormURLEncode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4375DC681D82E42A00DC3E25 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4375DC691D82E42A00DC3E25 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4375DC6C1D82E42A00DC3E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4375DC6D1D82E42A00DC3E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4375DC6F1D82E42A00DC3E25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YelpClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkayfitz.YelpClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4375DC701D82E42A00DC3E25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YelpClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkayfitz.YelpClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4375DC521D82E42A00DC3E25 /* Build configuration list for PBXProject "YelpClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4375DC6C1D82E42A00DC3E25 /* Debug */,
+				4375DC6D1D82E42A00DC3E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4375DC6E1D82E42A00DC3E25 /* Build configuration list for PBXNativeTarget "YelpClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4375DC6F1D82E42A00DC3E25 /* Debug */,
+				4375DC701D82E42A00DC3E25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4375DC4F1D82E42A00DC3E25 /* Project object */;
+}

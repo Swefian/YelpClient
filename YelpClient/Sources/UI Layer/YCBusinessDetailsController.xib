@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YCBusinessDetailsController">
+            <connections>
+                <outlet property="addressLabel" destination="Wrv-eO-vfv" id="5xF-eD-zAo"/>
+                <outlet property="businessImage" destination="Vxq-Ly-q5p" id="wRb-3m-Qoj"/>
+                <outlet property="mapView" destination="cGe-rE-CYG" id="A44-R3-gjX"/>
+                <outlet property="phoneLabel" destination="qep-cl-YiR" id="eAE-TY-qgc"/>
+                <outlet property="ratingImage" destination="SG0-kA-raS" id="rEV-sU-nnY"/>
+                <outlet property="reviewLabel" destination="zqY-eK-ahb" id="OuZ-he-2gw"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Vxq-Ly-q5p">
+                    <rect key="frame" x="10" y="10" width="394" height="163"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="163" id="f3h-Qj-rtp"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="SG0-kA-raS">
+                    <rect key="frame" x="10" y="179" width="394" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="aC8-r3-LA9"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Phone:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Iy-f6-fAu">
+                    <rect key="frame" x="13" y="228" width="54" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3L-Vo-EGd">
+                    <rect key="frame" x="13" y="259" width="63" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2S-G2-N6N">
+                    <rect key="frame" x="162" y="441" width="91" height="30"/>
+                    <state key="normal" title="View On Yelp"/>
+                    <connections>
+                        <action selector="viewOnYelpTapped:" destination="-1" eventType="touchUpInside" id="wEh-95-ecO"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zqY-eK-ahb">
+                    <rect key="frame" x="8" y="323" width="398" height="93"/>
+                    <constraints>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="93" id="v60-je-BMq"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" zoomEnabled="NO" scrollEnabled="NO" rotateEnabled="NO" pitchEnabled="NO" showsBuildings="NO" showsPointsOfInterest="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cGe-rE-CYG">
+                    <rect key="frame" x="0.0" y="491" width="414" height="245"/>
+                    <gestureRecognizers/>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="PAt-bA-PaN" appends="YES" id="RUd-o3-ATC"/>
+                    </connections>
+                </mapView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="1-999-999-9999" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qep-cl-YiR" userLabel="Phone Content">
+                    <rect key="frame" x="235" y="223" width="169" height="27"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="169" id="3uT-ie-eqN"/>
+                        <constraint firstAttribute="height" constant="27" id="oHU-Ju-Nzz"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <dataDetectorType key="dataDetectorTypes" phoneNumber="YES"/>
+                </textView>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="123 Fake Street Anytown, ON Canada" textAlignment="right" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wrv-eO-vfv" userLabel="Address Content">
+                    <rect key="frame" x="235" y="252" width="169" height="77"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="77" id="AO1-RX-fIu"/>
+                        <constraint firstAttribute="width" constant="169" id="oOW-Ku-B2b"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    <dataDetectorType key="dataDetectorTypes" address="YES"/>
+                </textView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="h2S-G2-N6N" firstAttribute="centerX" secondItem="zqY-eK-ahb" secondAttribute="centerX" id="5bu-MG-GVu"/>
+                <constraint firstItem="Wrv-eO-vfv" firstAttribute="top" secondItem="qep-cl-YiR" secondAttribute="bottom" constant="2" id="6es-hD-pwV"/>
+                <constraint firstItem="z3L-Vo-EGd" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="8fq-I6-Snx"/>
+                <constraint firstItem="Vxq-Ly-q5p" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="AMD-KC-gAq"/>
+                <constraint firstItem="6Iy-f6-fAu" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="13" id="CIE-6j-8G7"/>
+                <constraint firstItem="z3L-Vo-EGd" firstAttribute="top" secondItem="6Iy-f6-fAu" secondAttribute="bottom" constant="10" id="Ghm-9y-Ufb"/>
+                <constraint firstItem="SG0-kA-raS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="HG0-cb-vTY"/>
+                <constraint firstItem="h2S-G2-N6N" firstAttribute="top" secondItem="zqY-eK-ahb" secondAttribute="bottom" constant="25" id="Ia9-I2-UbD"/>
+                <constraint firstAttribute="trailing" secondItem="zqY-eK-ahb" secondAttribute="trailing" constant="8" id="Kmg-yb-u2j"/>
+                <constraint firstItem="cGe-rE-CYG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LOF-le-Otg"/>
+                <constraint firstItem="SG0-kA-raS" firstAttribute="top" secondItem="Vxq-Ly-q5p" secondAttribute="bottom" constant="6" id="MBC-pn-1xq"/>
+                <constraint firstAttribute="bottom" secondItem="cGe-rE-CYG" secondAttribute="bottom" id="OWf-7x-Ic8"/>
+                <constraint firstItem="cGe-rE-CYG" firstAttribute="top" secondItem="h2S-G2-N6N" secondAttribute="bottom" constant="20" id="VSt-9q-mDG"/>
+                <constraint firstItem="Vxq-Ly-q5p" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="ZQo-TE-O09"/>
+                <constraint firstAttribute="trailing" secondItem="Vxq-Ly-q5p" secondAttribute="trailing" constant="10" id="b6n-46-Yyj"/>
+                <constraint firstAttribute="trailing" secondItem="qep-cl-YiR" secondAttribute="trailing" constant="10" id="ceP-zn-pSj"/>
+                <constraint firstItem="6Iy-f6-fAu" firstAttribute="top" secondItem="SG0-kA-raS" secondAttribute="bottom" constant="15" id="daw-v3-bGW"/>
+                <constraint firstItem="zqY-eK-ahb" firstAttribute="top" secondItem="z3L-Vo-EGd" secondAttribute="bottom" constant="43" id="evM-BP-QtL"/>
+                <constraint firstAttribute="trailing" secondItem="cGe-rE-CYG" secondAttribute="trailing" id="imx-x1-NSn"/>
+                <constraint firstItem="qep-cl-YiR" firstAttribute="top" secondItem="SG0-kA-raS" secondAttribute="bottom" constant="10" id="lpM-Qk-CuC"/>
+                <constraint firstItem="zqY-eK-ahb" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="m6v-4I-QWx"/>
+                <constraint firstAttribute="trailing" secondItem="SG0-kA-raS" secondAttribute="trailing" constant="10" id="rDk-Mr-QKF"/>
+                <constraint firstAttribute="trailing" secondItem="Wrv-eO-vfv" secondAttribute="trailing" constant="10" id="vaN-ea-USI"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+        </view>
+        <tapGestureRecognizer id="PAt-bA-PaN">
+            <connections>
+                <action selector="mapTapped:" destination="-1" id="WdR-sT-DId"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+</document>
